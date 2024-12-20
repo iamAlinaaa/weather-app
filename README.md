@@ -1,8 +1,6 @@
 
 # React + TypeScript + Vite
 
-https://weather-app-git-main-iamalinaaas-projects.vercel.app/
-
 Follow these steps to clone the project and run it locally:
 
 ### 1. Clone the Repository
