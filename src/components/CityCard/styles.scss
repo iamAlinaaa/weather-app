@@ -1,0 +1,95 @@
+.city-card {
+  background-color: rgba(255, 255, 255, 0.3);
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  min-width: 300px;
+  max-width: 400px;
+  margin: 0;
+  text-align: center;
+
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  @media (max-width: 768px) {
+    margin: 20px auto;
+  }
+
+  &:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+  }
+
+  &__city-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #313256;
+    margin-bottom: 10px;
+  }
+
+  &__city-icon {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  &__weather-info {
+    font-size: 20px;
+    max-width: 150px;
+    color: #4a4c79;
+    margin-top: -20px;
+  }
+
+  &__buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  &__update-button {
+    font-size: 16px;
+    padding: 8px 15px;
+    background-color: #36a34f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #308843;
+    }
+  }
+
+  &__remove-button {
+    font-size: 16px;
+    padding: 8px 15px;
+    background-color: #e23647;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #c12e3d;
+    }
+  }
+}
